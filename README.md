@@ -1,4 +1,4 @@
-**Simple Plant Location using Hueristic method**
+#Simple Plant Location using Hueristic method
 
 The project's goal is to provide an analysis of the number of deposits
 required to meet the demand of the aforementioned population, as well as the
@@ -14,12 +14,16 @@ with the lowest cost (sum of fixed and variable costs) is used.
 In this manner, it first determines the three cheapest facilities to activate 
 and then selects one of those three at random.
 
-**Download cities locations**
+##Download cities locations
 
-https://simplemaps.com/data/es-cities
+Here is a sample of locations of [cities in Spain](https://simplemaps.com/data/es-cities)
 
 
-**Install**
+
+
+##Install
+
+For the code to run istall the following
 ```
 pip install pulp
 pip install haversine
